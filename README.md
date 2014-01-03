@@ -13,6 +13,7 @@ e armazenado na raiz de cada módulo.
 
 Um manisfesto poderá conter qualquer quantidade de propriedades, porém, as propriedades abaixo são
 requeridas:
+<pre>
   - module (label não requerido):
     - name        : [string] - nome do módulo
     - version     : [string] - versão do módulo
@@ -29,10 +30,11 @@ requeridas:
     - name        : [string] - nome do desenvolvedor do módulo
     - email       : [string] - e-mail do desenvolvedor do módulo
     - url         : [string] - site do desenvolvedor do módulo
-
+</pre>
 
 Exemplo de arquivo manifesto.oged
 =================================
+<pre>
 {
     "name":        "module default",
     "version":     "0.0.1",
@@ -59,7 +61,7 @@ developer: {
     email: "augustowebd@gmail.com",
     url  : "http://augustowebd.blogspot.com"
 }
-
+</pre>
 
 Nota: Dentro do manifesto os caminhos devem ser separados usando '/', o oGed garantirar
 a portabilidade de plataforma.
