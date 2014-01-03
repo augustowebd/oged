@@ -1,27 +1,34 @@
 oGed
 ====
 
-Motiviação
-==========
+| Motiviação
 Tendo em vista a má qualidade dos Ged distribuídos gratuitamente, este projeto tem como premissa
 disponibilizar um produto de qualidade e que atenda a todos os necessitados de um sistema gerenciador
 eletrônico de documentos de forma a não deixar desejar a nenhuma GED comercial.
 
-Aviso aos navegantes
-====================
-Antes de se candidatar a contribuir com o projeto, verifique se ele de alguam forma irá lhe ajudar,
-não esqueça que este projeto é um projeto aberto, ou seja, muito provavelmente, ninguém lhe pagará
-por nada que você venha a desenvolver.
+| Aviso aos navegantes
+Antes de se candidatar a contribuir com o projeto, verifique se ele de alguma forma irá lhe ajudar,
+não se esqueça que é um projeto aberto, ou seja, muito provavelmente, ninguém lhe pagará por nada 
+que você venha a desenvolver.
 
-Por onde comecar
-================
+| Por onde comecar
 Antes de iniciar você deverá ler as regras de adesão ao projeto (este documento), feito isto, tudo
 que você vai precisar para começar a colaborar está na pasta 'documentation'.
-Dê uma atenção especial regras de codificação e integração continua.
+Dê uma atenção especial regras as de codificação e integração continua.
 
-O que é integração continua (CI)
-================================
+| O que é integração continua (CI)
 
 
-Por que devo criar testes unitários
-===================================
+| Por que devo criar testes unitários
+Por meio dos testes unitários o oGed medirá o grau de aceitação do código no projeto. Todo código
+PHP do módulo será aceito quando tiver 100% de cobertura de testes unitários. Com base no resul-
+tado dos testes outro plugins serão aplicados ao código para avaliar a qualidade do mesmo.
+
+
+| Se eu não seguir as regras do projeto
+Se sua contribuição não estiver nos padrões exigidos do projeto ela será descartada!
+
+Contudo, não entenda que estamos fechados à mudandas, pelo contrário! 
+
+Mas manter a organização do projeto é fator decisivo ao sucesso do mesmo e para tanto 
+as regras deverão ser acatadas.
