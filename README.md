@@ -19,12 +19,13 @@ requeridas:
     - version     : [string] - versão do módulo
     - launch      : [string] - nome do script inicial
     - description : [string] - descrição do módulo, o que ele faz, onde se emprega, etc
-    - icons       : [object] - lista de icones usados pelo módulo
-    - css         : [object] - lista de CSS usado pelo módulo
-    - js          : [object] - lista de javascript usado pelo módulo
     - type        : [enum]   - admin: o módulo será disponibilizado apenas no lado do servidor
                              - user:  o módulo será disponbilizado apenas no lado do usuário
                              - both:  o módulo será disponibilizado na adminstração e usuário
+  - icon        : [object] - lista de icones usados pelo módulo
+  - css         : [object] - lista de CSS usado pelo módulo
+  - js          : [object] - lista de javascript usado pelo módulo
+
 
   - developer:
     - name        : [string] - nome do desenvolvedor do módulo
@@ -40,18 +41,19 @@ Exemplo de arquivo manifesto.oged
     "version":     "0.0.1",
     "launch":      "/application/moduleName/initModule",
     "description": "oGed default module",
-    "icone": {
-        "icon_x": "/media/style/icons/modules/moduleName/icon_x.png",
-        "icon_y": "/media/style/icons/modules/moduleName/icon_y.png",
-        "icon_z": "/media/style/icons/modules/moduleName/icon_z.png"
-    },
+    "type" "both"
 },
-"css": {
+icon: {
+    "icon_x": "/media/style/icons/modules/moduleName/icon_x.png",
+    "icon_y": "/media/style/icons/modules/moduleName/icon_y.png",
+    "icon_z": "/media/style/icons/modules/moduleName/icon_z.png"
+},
+css: {
     "css_x": "/media/style/css/modules/moduleName/stylesheets_x.css",
     "css_y": "/media/style/css/modules/moduleName/stylesheets_y.css",
     "css_z": "/media/style/css/modules/moduleName/stylesheets_z.css"
 },
-"js": {
+js: {
     "js_x": "/media/style/js/modules/moduleName/javascript_x.js",
     "js_y": "/media/style/js/modules/moduleName/javascript_y.js",
     "js_z": "/media/style/js/modules/moduleName/javascript_z.js"
